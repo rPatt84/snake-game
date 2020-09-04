@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.score-point {
+  background-color: wheat;
+  border: 1px outset black;
+}
+
+.snake {
+  background-color: orange;
+  border: 1px outset black;
+}
+
+.obs {
+  background-color: black;
+  border: 1px inset white;
+}
+
+.btn {
+  width: 75px;
+  background-color: green;
+  color: black;
+  border: 1px outset black;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.btn:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  border: 1px inset black;
+}
+
+#main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+
+#main-container #pannel {
+  border: 1px outset black;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: brown;
+}
+
+#main-container #pannel h2 {
+  text-decoration: underline;
+}
+
+#main-container #pannel #game-pannel {
+  padding: 5px;
+}
+
+#main-container #pannel #game-pannel #score-value {
+  color: red;
+}
+
+#main-container #pannel #game-pannel #difficulty-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px 0;
+}
+
+#main-container #pannel #game-pannel #difficulty-container h3 {
+  text-decoration: underline;
+}
+
+#main-container #pannel #game-pannel #difficulty-container .difficulty-fieldset {
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+#main-container #pannel #game-pannel #difficulty-container .difficulty-fieldset input[type=radio] {
+  cursor: crosshair;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-right: 2.5px;
+}
+
+#main-container #pannel #game-pannel #difficulty-container .difficulty-fieldset div:nth-child(1n+0) {
+  padding: 2.5px;
+  text-align: left;
+}
+
+#main-container #game-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 402px;
+  height: 402px;
+  border: 1px solid black;
+  margin: 15px 0;
+  background-color: brown;
+}
+
+#main-container #game-area .game-squares {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */

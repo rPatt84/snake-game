@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css" text="text/css">
+        <script src="script/script.js"></script>
+        <title>Snake Game</title>
+    </head>
+
+    <body>
+        <section id="main-container">
+            <div id="pannel">
+                <h2>Lets Play Snake</h2>
+                <div id="game-pannel">
+                    <h3 id="score">Score -<span id="score-value">0</span>-</h3>
+
+                    <div id="difficulty-container">            
+                        <form id="difficulty-form">
+                            <fieldset class="difficulty-fieldset">
+                                <h3>Select Difficulty</h3>
+                                <div>
+                                    <input id="dif-easy" type="radio" name="difficulty" value="easy" checked>
+                                    <label for="dif-easy">Easy</label>
+                                </div>
+                                <div>
+                                    <input id="dif-medium" type="radio" name="difficulty" value="medium">
+                                    <label for="dif-medium">Medium</label>
+                                </div>
+                                <div>
+                                    <input id="dif-hard" type="radio" name="difficulty" value="hard">
+                                    <label for="dif-hard">Hard</label>
+                                </div>
+                            </fieldset>
+                        </form>
+
+                        <button id="start" class="btn">Start New Game</button>
+                    </div>
+                </div>
+             
+            </div>
+            <div id="game-area">
+        
+            </div>
+        </section>
+    </body>
+</html>
